@@ -2,9 +2,9 @@
 // Scope of variables
 class Scope
 {
-    int b=10;              //u can write here static also 
+    int b=10;              //global variable //u can write here static also 
     public  void add() {   //if u write above static here also u have to write static
-        int a=70;
+        int a=70;           // local variable
         System.out.println(a+b);
     }
     public static void main(String[] args) {
