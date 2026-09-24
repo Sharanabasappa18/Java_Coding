@@ -6,7 +6,7 @@ class Triangle
             {
                 for(int j=1;j<=5;j++)
                 {
-                    if(j<=i)
+                    if(j<=i)           // for making reverse triangle "j>=i"//
                     {
                         System.out.print("*");
                     }
