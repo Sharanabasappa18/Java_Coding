@@ -1,11 +1,14 @@
 class Fibonacci
 {
     public static void main(String[] args) {
-        int sum=0;
-        for(int i=1;i<=10;i++)
-        {
-            sum=sum+i;
+        int a=-1; 
+        int b=1;
+        int c=0;
+        for(int i=1;i<=10;i++){
+            c=a+b;
+            a=b;
+            b=c;
+            System.out.println(c);
         }
-        System.out.println(sum);
     }
 }
