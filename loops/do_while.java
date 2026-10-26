@@ -1,6 +1,6 @@
 class DoWhile{
     public static void main(String[] args) {
-        int num=1;
+        int num=1;          // check num=1000;
         do { 
             System.out.println(num);
             num++;
